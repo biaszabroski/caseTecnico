@@ -84,7 +84,7 @@ button:hover {
 .scrollbar {
     margin-top: 50px;
     position: relative;
-    height: 500px;
+    height: 200px;
     overflow: auto;
     margin-top: 50px;
 }
@@ -96,7 +96,7 @@ button:hover {
 }
 .add-container {
     max-width: 500px; 
-    height: 300px;
+    height: 300px
 }
 .table-container table {
     width: 100%; 
