@@ -3,7 +3,7 @@ class Registration {
     constructor() {
         this.arrayRegistration = []
     }
-
+//inicio do programa
     save() {
        let registration = this.dataReader()
 
@@ -13,7 +13,7 @@ class Registration {
 
        this.registrationList()
     }
-
+//adiciona o usuário na lista
     registrationList () {
         let tbody = document.getElementById('tbody')
 
@@ -31,7 +31,7 @@ class Registration {
             td_classification.innerText = this.arrayRegistration[i].classification
         }
     }
-
+//adiciona um novo usuário no array
     register (registration) {
         this.arrayRegistration.push(registration)
         
@@ -39,12 +39,12 @@ class Registration {
         this.clearForm()
           
     }
-
+//limpa os dados, uma vez cadastrados
     clearForm() {
         document.getElementById('name').value = ''
         document.getElementById('age').value = ''
     }
-
+//organiza a lista por ordem de idade (menor para maior) e alfabética
     sortData () {
         this.arrayRegistration.sort((a,b) => {
             
@@ -65,6 +65,7 @@ class Registration {
      
     }
     
+//classifica o usuário de acordo com sua idade
     userClassification (registration) {
         if(registration.age <= 12) { 
             registration.classification = 'Child'
@@ -79,7 +80,7 @@ class Registration {
         this.register(registration)
     }
     
-
+//lê os dados fornecidos no lineInput
     dataReader() {
         let registration = {}
         
@@ -88,7 +89,7 @@ class Registration {
         return registration 
     }
 
-//avoid form from being submitted empty 
+//evita que o formulário seja enviado em branco, ou incorreto
     validator(registration) {
         let message = ''
         const toast = Swal.mixin({
