@@ -42,7 +42,7 @@ Fill out the form with a valid name and age, click on "Save" and they will be sh
 
 :point_down:<h4>Como utiliza-la:</h4>
 
-Preencha o formulário com nome e idade válidos, clique em "Save" e as informações serão exibidas na lista, junto com a classificação de idade do usuário.
+Preencha o formulário com nome e idade válidos, clique em "Save" e as informações serão exibidas na lista, junto a classificação de idade do usuário.
 
 - O formulário não será enviado se estiver informações faltantes.
 - Evite números negativos, pois não serão válidos.
