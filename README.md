@@ -34,7 +34,7 @@ Fill out the form with a valid name and age, click on "Save" and they will be sh
 
 :brazil: <h4>Como rodar  a aplicação:</h4>
 
-:one: Clique em "Código" e copie a URl deste repositório. Agora, abra o Git Bash, e altere o diretório atual para o de sua preferência. Digite "git clone", e cole a URL. Pressione enter e o crie. 
+:one: Clique em "Código" e copie a URL deste repositório. Agora, abra o Git Bash, e altere o diretório atual para o de sua preferência. Digite "git clone", e cole a URL. Pressione enter e o crie. 
 
 :two: Abra o Visual Code Studio, clique em "Abrir pasta" e escolha o diretório no qual você salvou este projeto.
 
